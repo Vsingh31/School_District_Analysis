@@ -48,9 +48,17 @@ Last,I replaced the % Passing Math, % Passing Reading, and % Overall Passing sco
 
 ![TSH_9th_NaN](https://user-images.githubusercontent.com/90277142/136714209-e5e73e77-46ea-4694-8db5-359fc62a8782.png)
 
-* Yes,Replacing the ninth-grade scores affect the following:**Math and reading scores by grade** when i calculated Math and reading scores by grade,every grade got results but after Replacing the ninth-grades with NaN, i got (Math and reading scores) for 9th grade is NaN but all other grade have same result.
-**Scores by school spending:** By replacing the ninth-grade scores does not affect the scores by school spending.**Scores by school size** **Scores by school type** Replacing the ninth-grade scores affect the scores by school type also,I replaced THomas high school 9th grades scores and thomas high school is charter Type school so,In charter type school type overall Percentage has been decreased.but District type school type dhes not have any affect.
+* Yes,Replacing the ninth-grade scores affect the following:
+**Math and reading scores by grade** when i calculated Math and reading scores by grade,every grade got results but after Replacing the ninth-grades with NaN, i got (Math and reading scores) for 9th grade is NaN but all other grade have same result.**Scores by school spending:** By replacing the ninth-grade scores does not affect the scores by school spending.**Scores by school size**we divided school in three bin according to sizes,small,Medium and Large.because of change in 9th grade thomas high school scores with nan Medium school size school overall percentage of scores decreased.small and large size school scores are same.**Scores by school type** Replacing the ninth-grade scores affect the scores by school type also,I replaced THomas high school 9th grades scores and thomas high school is charter Type school so,In charter type school type overall Percentage has been decreased.but District type school type dhes not have any affect.
   
    
    
-**Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+####**Summary:**
+
+Changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+* Number of passing Math Students for Thomas High School has been changed beacause i replaced 9th grade student of Thomas high school math scores with Nan.
+* When Number of passing Math Students for Thomas High School has been changed because of that my % passing math also has been changed.
+* Similarly i also put NaN for passing reading scores of 9th grade students of Thomas high school so Number of passing reading Students for Thomas High School has been changed
+  because of that %passing reading also has been changed.
+* And When we calculate % passing both math and reading that also affected by changing 9th grader students scores of Thomas high school with NaN.
+* when I calculated Math and reading scores by grade. Every grade got results but after Replacing the ninth-grades with NaN for Thomas high school, i got (Math and reading        scores) for 9th grade is NaN but all other grade have same result like my module testing
