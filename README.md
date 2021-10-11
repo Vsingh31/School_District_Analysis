@@ -1,10 +1,10 @@
 # School_District_Analysis
 
-##**Overview of the school district analysis**
+## **Overview of the school district analysis**
 The Purpose of this analysis is to help the school board and verify that is there any academic dishonesty happened or not?They have a doubt that file  students_complete.csv has been altered.So specifically,I will check reading and math grades for Thomas High School ninth graders data to verify that students_complete.csv file have been altered or not.And if it is altered then what impact we can see because of this change.So i can explain the school board to the full extent of the academic dishonesty.for this,I am going to replace the math and reading scores for Thomas High School with NaNs while keeping the rest of the data intact. Once I will replace the math and reading scores, then i will repeat the school district analysis that i did in this module and provide a report that describe how these changes affected the overall analysis.  
 
 
-###**Results**
+### **Results**
 
 * In the District Summary,I recalculated the total student count by subtracting the number of ninth-grade students in Thomas High School from the total student count,then I recalculated the passing math and passing reading percentages, and the overall passing percentage with the recalculated total student count. By altering the total student count,I saw passing math and passing reading percentages increased by some tenths percentage and the overall passing percentage increased by almost 1 percentage.
 
@@ -53,7 +53,7 @@ Last,I replaced the % Passing Math, % Passing Reading, and % Overall Passing sco
   
    
    
-####**Summary:**
+#### **Summary:**
 
 Changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
 * Number of passing Math Students for Thomas High School has been changed beacause i replaced 9th grade student of Thomas high school math scores with Nan.
